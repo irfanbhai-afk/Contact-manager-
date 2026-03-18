@@ -1,0 +1,54 @@
+Contact Manager System - Project Documentation (Revised)
+1. Abstract
+The Contact Manager System is a console-based Python application designed to store and manage user contacts efficiently. 
+It uses a dictionary data structure to perform operations like adding, viewing, searching, updating, and deleting contacts. 
+The system is menu-driven and runs continuously until the user chooses to exit.
+2. Introduction
+In today’s digital world, managing contacts is essential. This project provides a simple solution for storing contact details 
+using Python. It helps beginners understand how real-world applications handle data using basic programming concepts.
+3. Objectives
+• Develop a simple contact management system.
+• Implement CRUD operations (Create, Read, Update, Delete).
+• Understand Python dictionaries and loops.
+• Build a user-friendly menu-driven program.
+4. System Requirements
+Hardware Requirements:
+• Basic computer or laptop
+Software Requirements:
+• Python (version 3.x)
+• Any IDE (VS Code, PyCharm, IDLE)
+5. System Design
+The system uses a while loop to repeatedly display a menu. Based on user input, different operations are performed. 
+A dictionary stores contacts where the name is the key and phone number is the value.
+6. Algorithm
+1. Start the program
+2. Initialize empty dictionary
+3. Display menu options
+4. Take user input
+5. Perform selected operation
+6. Repeat until user exits
+7. Stop the program
+7. Features
+Add Contact – Adds new contact after checking duplicates.
+View Contacts – Displays all contacts.
+Search Contact – Finds contact by name.
+Update Contact – Edits phone number.
+Delete Contact – Removes a contact.
+Exit – Terminates program.
+8. Advantages
+• Easy to implement
+• Efficient data handling
+• Beginner-friendly
+• Fast operations using dictionary
+9. Limitations
+• No permanent storage
+• No graphical interface
+• Stores only basic details
+10. Future Enhancements
+• Add file/database storage
+• GUI using Tkinter
+• Additional fields like email
+• Authentication system
+11. Conclusion
+The Contact Manager System is a simple yet effective project that demonstrates core Python concepts. 
+It serves as a strong foundation for developing more advanced applications.
